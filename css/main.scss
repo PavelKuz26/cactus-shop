@@ -1,0 +1,47 @@
+// roots
+$fontRegular: 400;
+$fontSemiBold: 600;
+$fontBold: 700;
+
+$biggestFontSize: 4.25rem;
+$normalFontSize: 1rem;
+$smallFontSize: .875rem;
+
+$h2FontSize: 1.25rem;
+
+
+$bodyColor:  hsl(228, 6%, 8%);
+
+$shadowImg:  0 0 48px hsla(93, 54%, 54%, .4);
+
+$gradientCard: linear-gradient(180deg, hsla(93, 8%, 8%), hsla(93, 40%, 30%));
+
+$firstColor: hsl(93, 54%, 54%);
+$firstColorAlt: hsl(93, 50%, 48%);
+$firstColorLight: hsl(93, 58%, 66%);
+$titleColor: hsl(228, 8%, 98%);
+$textColor: hsl(228, 8%, 70%);
+$whiteColor: hsl(228, 8%, 98%);
+$blackColor: hsl(228, 6%, 4%);
+$bodyColor: hsl(228, 6%, 8%);
+$containerColor: hsl(228, 6%, 12%);
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+
+// setups
+@import "layout";
+
+
+// components
+@import "./components/scrollBar.scss";
+@import "./components/header.scss";
+@import "./components/home.scss";
+@import "./components/news.scss";
+@import "./components/shop.scss";
+@import "./components/care.scss";
+@import "./components/contacts.scss";
+@import "./components/footer.scss";
+@import "./components/scrollUp.scss";
+@import "./components/media.scss";

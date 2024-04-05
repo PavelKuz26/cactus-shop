@@ -1,0 +1,26 @@
+.care__container{
+    padding-top: 2rem;
+    row-gap: 2rem;
+    @media(max-width: 576px) {
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
+    .img__care{
+        width: 270px;
+        filter: $shadowImg;
+        justify-self: center;
+    }
+    .care__list{
+        display: grid;
+        row-gap: 1rem;
+    }
+    .care__items{
+        display: flex;
+        column-gap: .5rem;
+        align-items: center;
+        i{
+            font-size: 1.5rem;
+            color: $firstColor;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+// small 
+
+
+@media screen and (max-width: 1150px) {
+    .nav__menu{
+        position: fixed;
+        top: 0;
+        right: -1000px;
+        background-color: hsla(228, 24%, 6%, .2);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        width: 80%;
+        height: 100%;
+        padding: 6rem 3rem 0;
+        transition: right .4s;
+    }
+    .show__menu{
+        right: 0;
+    }
+    .menu__list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        align-items: flex-start;
+    }
+    .nav__toggle,
+    .close__btn{
+        display: block;
+    }
+}
+
